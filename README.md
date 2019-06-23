@@ -50,22 +50,21 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/edward-joseph/alertBox)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+In fact, I needed a javascript library where I always wanted to create `alerts` and `popups` without losing any time. It's also really annoying to spend my time making different `popups` and `alerts` with different designs.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+So I spent my time up:
+* built a library just with javascript so libraries like jQuery no longer needed
+* To make a warning message for myself and the users who are tired of writing long codes
+* With just a few lines of code writing, you can create alerts and popups that even change their designs
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue with the tag.
+Of course, your needs can not be addressed with this library alone, and maybe you need more than that, so I'm going to update this library to be able to meet the maximum needs.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+In fact, I created this library alone, but I also asked some questions about the problem.
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Javascript](https://www.javascript.com)
+* [Css3](http://www.css3.info)
 
 
 
