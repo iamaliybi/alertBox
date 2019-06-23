@@ -87,11 +87,27 @@ You must first download the alertBox library from its GitHub and add it to your 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To work with this library, we already defined a constant variable and set it equal to the `alertBox`.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+* Alert
+1. To create an alert, you must first call the addAlert function. This function receives two parameters
+
+2. The first parameter of this function is a string that contains the text inside the alert
+
+3. The second parameter of this function is a multiplicity of objects (although giving these values is arbitrary because the defaults are predefined)
 
 
+| Object Value     | Application   | Acceptable values |
+| -------------    | ------------- | ----------------- |
+| position         | set alert box position  | 'left', `'right'`, 'center' |
+| status           | determine the status of the alert box  | `'simple'`, 'success', 'error'      |
+| align            | set the text orientation of the alert box  | `'left'`, 'right', 'center'      |
+| animateDelay     | delay for displaying alert box  | NUMBER (s) : `0`     |
+| animateDuration  | When it will take time for the alert box to be in position  | NUMBER (s) : `1`      |
+| boxDuration      | The amount of time the alert box is in position  | NUMBER (s) : `2`     |
+
+
+* Popup
 
 <!-- CONTRIBUTING -->
 ## Contributing
