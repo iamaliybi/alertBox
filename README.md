@@ -74,8 +74,8 @@ You must first download the alertBox library from its GitHub and add it to your 
 
 1. First, go to the [alertBox](https://github.com/edward-joseph/alertBox) page
 2. Then download that package and add it to your project
-3. To add the necessary CSS, you must first go to the [Css Folder](https://github.com/edward-joseph/alertBox/tree/master/) in the package and add the alertBox.min.css file to your css files.
-4. Also, to add JS files, you must log in to the [Js Folder](https://github.com/edward-joseph/alertBox/tree/master/) and add the alertBox.js file to your js files.
+3. To add the necessary CSS, you must first go to the [Css Folder](https://github.com/edward-joseph/alertBox/tree/master/) in the package and add the `alertBox.min.css` file to your css files.
+4. Also, to add JS files, you must log in to the [Js Folder](https://github.com/edward-joseph/alertBox/tree/master/) and add the `alertBox.js` file to your js files.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
