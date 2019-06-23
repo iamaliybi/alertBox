@@ -1,6 +1,6 @@
-[![License](https://img.shields.io/badge/license-MIT-4A8F80.svg?style=flat-square)](https://packagist.org/packages/jeremykenedy/uuid)
+[![Build](https://img.shields.io/badge/build-passing-4EC820.svg?style=flat-square)](instagram.com/dev.edward_joseph)
+[![License](https://img.shields.io/badge/license-MIT-4D9282.svg?style=flat-square)](https://packagist.org/packages/jeremykenedy/uuid)
 [![Latest Stable Version](https://img.shields.io/badge/stable-v1.5.0-35A4DA.svg?style=flat-square)](https://packagist.org/packages/jeremykenedy/uuid)
-[![Instagram](https://img.shields.io/badge/instagram-FOLLOW-4A8F80.svg?style=social&logo=instagram)](instagram.com/dev.edward_joseph)
 
 
 <!-- PROJECT LOGO -->
