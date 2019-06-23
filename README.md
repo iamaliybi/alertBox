@@ -1,8 +1,6 @@
-[![Build Status][build-shield]]()
-[![Contributors][contributors-shield]]()
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
+[![License](https://img.shields.io/badge/license-MIT-4A8F80.svg?style=flat-square)](https://packagist.org/packages/jeremykenedy/uuid)
+[![Latest Stable Version](https://img.shields.io/badge/stable-v1.5.0-35A4DA.svg?style=flat-square)](https://packagist.org/packages/jeremykenedy/uuid)
+[![Instagram](https://img.shields.io/badge/instagram-FOLLOW-4A8F80.svg?style=social&logo=instagram)](instagram.com/dev.edward_joseph)
 
 
 <!-- PROJECT LOGO -->
@@ -163,7 +161,6 @@ Project Link: [alertBox](https://github.com/edward-joseph/alertBox)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
-[contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
 [license-shield]: https://img.shields.io/apm/l/MIT.svg?style=for-the-badge
 [license-url]: https://github.com/edward-joseph/alertBox/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
