@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/edward-joseph/alertBox">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="favicon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">alertBox</h3>
