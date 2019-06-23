@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Edward Joseph">
+    <meta name="description" content="this is a javascript library :)">
+    <meta name="keywords" content="alertBox,javascript,EdwardJoseph">
+    <title>alertBox</title>
+    <!-- icon downloaded from freepik.com -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/alertBox.min.css">
+	<style>
+		body {
+			font-family:'IRANSans';
+		}
+	</style>
+</head>
+<body>
+    <script src="js/alertBox.min.js"></script>
+	<script>
+		alertBox.addPopup({
+			title:'E.Joseph',
+			message:'Nisi vitae suscipit tellus mauris a diam maecenas sed. Dictum varius duis at consectetur lorem. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus.',
+			buttonWidth:85,
+			delay:0,
+			buttons:{
+				Confirm:'success',
+				Cancel:'error'
+			}
+		},(result) => {
+			alertBox.addAlert('This is a '+result[0],{
+				status:'error',
+				align:'left',
+				position:'right'
+			});
+		});
+	</script>
+</body>
+</html>
