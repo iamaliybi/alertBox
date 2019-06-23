@@ -104,21 +104,32 @@ To work with this library, we already defined a constant variable and set it equ
 | animateDuration  | When it will take time for the alert box to be in position  | NUMBER (s) : `1`      |
 | boxDuration      | The amount of time the alert box is in position  | NUMBER (s) : `2`     |
 
-<br />
+```javascript
+alertBox.addAlert('This is a message',{
+  position:'left',
+  status:'error',
+  align:'center',
+  animateDelay:0.1,
+  animateDuration:1,
+  boxDuration:3
+});
+```
+
 * Popup
+1. To create a popup, you must use the addPopup function
+2. This function receives only one parameter, which is object. This object accepts various values for popup control
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
+| Object Value     | Application   | Acceptable values |
+| -------------    | ------------- | ----------------- |
+| duration         | the amount of animation time              | NUMBER (s) : `1`                |
+| title         | setting the subject              | STRING: `'Subject: title'`                  |
+| message         | set text message              | STRING : `'message'`                  |
+| headerAlign         | setting the subject orientation              | `'left'`, 'right', 'center' |
+| textAlign         | setting the message orientation              | `'left'`, 'right', 'center' |
+| buttonAlign         | setting the buttons orientation              | `'left'`, 'right', 'center' |
+| buttonWidth         | setting the buttons width              | NUMBER : 85                 |
+| visible         | black background display              | `true`, false                  |
+| hideClose         | display the exit icon              | true, `false`                  |
 
 <!-- LICENSE -->
 ## License
