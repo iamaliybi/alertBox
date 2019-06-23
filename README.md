@@ -100,7 +100,7 @@ To work with this library, we already defined a constant variable and set it equ
 | position         | set alert box position  | 'left', `'right'`, 'center' |
 | status           | determine the status of the alert box  | `'simple'`, 'success', 'error'      |
 | align            | set the text orientation of the alert box  | `'left'`, 'right', 'center'      |
-| animateDelay     | delay for displaying alert box  | NUMBER (s) : `0`     |
+| animateDelay     | latency in the alert box view  | NUMBER (s) : `0`     |
 | animateDuration  | When it will take time for the alert box to be in position  | NUMBER (s) : `1`      |
 | boxDuration      | The amount of time the alert box is in position  | NUMBER (s) : `2`     |
 
@@ -116,18 +116,21 @@ alertBox.addAlert('This is a message',{
 ```
 
 * Popup
-1. To create a popup, you must use the addPopup function
-2. This function receives only one parameter, which is object. This object accepts various values for popup control
+1. To create a popup, you must use the `addPopup` function
+2. This function receives two parameters. The first parameter of this function is an object that receives a series of values, and the second parameter of this function is a function called callback
+3. The second parameter of this function receives a default value in the array, which is the first key of this array, the name of the button and the second key of the array, the number of the button that is clicked on it.
 
 | Object Value     | Application   | Acceptable values |
 | -------------    | ------------- | ----------------- |
-| duration         | the amount of animation time              | NUMBER (s) : `1`                |
 | title         | setting the subject              | STRING: `'Subject: title'`                  |
 | message         | set text message              | STRING : `'message'`                  |
+| duration         | the amount of animation time              | NUMBER (s) : `1`                |
+| delay         | latency in the popup view              | NUMBER (s) : `0`                |
 | headerAlign         | setting the subject orientation              | `'left'`, 'right', 'center' |
 | textAlign         | setting the message orientation              | `'left'`, 'right', 'center' |
 | buttonAlign         | setting the buttons orientation              | `'left'`, 'right', 'center' |
 | buttonWidth         | setting the buttons width              | NUMBER : `85`                 |
+| buttons         | The buttons you want to display in the popup              | Object : {buttonName:`'status'`} |
 | visible         | black background display              | `true`, false                  |
 | hideClose         | display the exit icon              | true, `false`                  |
 
@@ -140,8 +143,14 @@ alertBox.addPopup({
   textAlign:'left',
   buttonAlign:'right',
   buttonWidth:90,
+  button:{
+    Confirm:'success',
+    Cancel:'error'
+  },
   visible:false,
   hideClose:true
+},(result) => {
+  alert(result[0]+' : '+result[1]);
 });
 ```
 
