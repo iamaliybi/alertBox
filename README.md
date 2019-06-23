@@ -91,9 +91,7 @@ To work with this library, we already defined a constant variable and set it equ
 
 * Alert
 1. To create an alert, you must first call the addAlert function. This function receives two parameters
-
 2. The first parameter of this function is a string that contains the text inside the alert
-
 3. The second parameter of this function is a multiplicity of objects (although giving these values is arbitrary because the defaults are predefined)
 
 
@@ -106,7 +104,7 @@ To work with this library, we already defined a constant variable and set it equ
 | animateDuration  | When it will take time for the alert box to be in position  | NUMBER (s) : `1`      |
 | boxDuration      | The amount of time the alert box is in position  | NUMBER (s) : `2`     |
 
-
+<br />
 * Popup
 
 <!-- CONTRIBUTING -->
