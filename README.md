@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/edward-joseph/alertBox">
-    <img src="favicon.png" alt="Logo" width="100" height="100">
+    <img src="https://img.techpowerup.org/190623/favicon.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">alertBox</h3>
@@ -145,4 +145,4 @@ Project Link: [alertBox](https://github.com/edward-joseph/alertBox)
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: https://img.techpowerup.org/190623/favicon.png
+[product-screenshot]: https://img.techpowerup.org/190623/screenshot.png
