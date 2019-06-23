@@ -127,18 +127,29 @@ alertBox.addAlert('This is a message',{
 | headerAlign         | setting the subject orientation              | `'left'`, 'right', 'center' |
 | textAlign         | setting the message orientation              | `'left'`, 'right', 'center' |
 | buttonAlign         | setting the buttons orientation              | `'left'`, 'right', 'center' |
-| buttonWidth         | setting the buttons width              | NUMBER : 85                 |
+| buttonWidth         | setting the buttons width              | NUMBER : `85`                 |
 | visible         | black background display              | `true`, false                  |
 | hideClose         | display the exit icon              | true, `false`                  |
 
-<!-- LICENSE -->
+```javascript
+alertBox.addPopup({
+  duration:2,
+  title:'SUBJECT',
+  message:'MESSAGE',
+  headerAlign:'center',
+  textAlign:'left',
+  buttonAlign:'right',
+  buttonWidth:90,
+  visible:false,
+  hideClose:true
+});
+```
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
-<!-- CONTACT -->
 ## Contact
 
 Edward Joseph (ALi Yaghoby) - [Edward_Joseph](https://t.me/Edward_Joseph) - alibigham3095@gmail.com
