@@ -19,8 +19,6 @@
     <a href="https://github.com/edward-joseph/alertBox"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
     <a href="https://github.com/edward-joseph/alertBox/issues">Report Bug</a>
     ·
     <a href="https://github.com/edward-joseph/alertBox/issues">Request Feature</a>
@@ -166,8 +164,8 @@ Project Link: [alertBox](https://github.com/edward-joseph/alertBox)
 <!-- MARKDOWN LINKS & IMAGES -->
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
-[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
-[license-url]: https://choosealicense.com/licenses/mit
+[license-shield]: https://img.shields.io/apm/l/MIT.svg?style=for-the-badge
+[license-url]: https://github.com/edward-joseph/alertBox/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: https://img.techpowerup.org/190623/screenshot.png
